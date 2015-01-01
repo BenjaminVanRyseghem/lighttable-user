@@ -1,0 +1,20 @@
+;; Your file has been converted to the new flat format.
+;; Conversion does not preserve comments or indentation.
+;; File is backed up at /Users/benjamin/Library/Application Support/LightTable/User/user.behaviors.bak
+[
+ [:app :lt.objs.style/set-skin "dark"]
+ [:app :lt.objs.sidebar.workspace/workspace.open-on-start]
+ [:app :-lt.objs.intro/show-intro]
+
+ [:editor :lt.objs.editor/no-wrap]
+ [:editor :lt.objs.style/set-theme "niflheim"]
+ [:editor :lt.objs.editor/line-numbers]
+ [:editor :lt.plugins.lt-snippets/use-local-hints]
+
+ [:editor.clojure :lt.plugins.clojure/print-length 1000]
+
+ [:files :lt.objs.files/file-types [{:exts [:cljx],
+                                          :mime "text/x-clojure",
+                                          :name "CljX",
+                                          :tags [:editor.clj :editor.clojure]}]]
+]
